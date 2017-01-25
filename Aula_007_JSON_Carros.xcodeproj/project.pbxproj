@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		43FB044D1E382B7E002596DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB044C1E382B7E002596DB /* AppDelegate.swift */; };
-		43FB044F1E382B7E002596DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB044E1E382B7E002596DB /* ViewController.swift */; };
 		43FB04521E382B7E002596DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FB04501E382B7E002596DB /* Main.storyboard */; };
 		43FB04541E382B7E002596DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FB04531E382B7E002596DB /* Assets.xcassets */; };
 		43FB04571E382B7E002596DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FB04551E382B7E002596DB /* LaunchScreen.storyboard */; };
 		43FB045F1E382B96002596DB /* carros.json in Resources */ = {isa = PBXBuildFile; fileRef = 43FB045E1E382B96002596DB /* carros.json */; };
+		7DCDC0631E3953D000B57383 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCDC0621E3953D000B57383 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		43FB04491E382B7E002596DB /* Aula_007_JSON_Carros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aula_007_JSON_Carros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FB044C1E382B7E002596DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43FB044E1E382B7E002596DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43FB04511E382B7E002596DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43FB04531E382B7E002596DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43FB04561E382B7E002596DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43FB04581E382B7E002596DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43FB045E1E382B96002596DB /* carros.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carros.json; sourceTree = "<group>"; };
+		7DCDC0621E3953D000B57383 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				43FB044C1E382B7E002596DB /* AppDelegate.swift */,
-				43FB044E1E382B7E002596DB /* ViewController.swift */,
 				43FB04501E382B7E002596DB /* Main.storyboard */,
+				7DCDC0621E3953D000B57383 /* TableViewController.swift */,
 				43FB04531E382B7E002596DB /* Assets.xcassets */,
 				43FB04551E382B7E002596DB /* LaunchScreen.storyboard */,
 				43FB04581E382B7E002596DB /* Info.plist */,
@@ -94,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Swift;
 				TargetAttributes = {
 					43FB04481E382B7E002596DB = {
@@ -141,8 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43FB044F1E382B7E002596DB /* ViewController.swift in Sources */,
 				43FB044D1E382B7E002596DB /* AppDelegate.swift in Sources */,
+				7DCDC0631E3953D000B57383 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +186,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -236,6 +237,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -306,6 +308,7 @@
 				43FB045D1E382B7E002596DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
